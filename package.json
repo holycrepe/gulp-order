@@ -1,46 +1,97 @@
 {
-  "name": "gulp-order",
-  "description": "The gulp plugin `gulp-order` allows you to reorder a stream of files using the same syntax as of `gulp.src`.",
-  "version": "1.1.1",
-  "author": {
-    "name": "Marcel Jackwerth",
+  "_args": [
+    [
+      "gulp-order-ext",
+      "M:\\"
+    ]
+  ],
+  "_from": "gulp-order-ext@*",
+  "_id": "gulp-order-ext@1.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gulp-order-ext",
+  "_npmUser": {
     "email": "marceljackwerth@gmail.com",
+    "name": "sirlantis"
+  },
+  "_npmVersion": "1.4.4",
+  "_phantomChildren": {
+    "lru-cache": "2.7.3",
+    "sigmund": "1.0.1"
+  },
+  "_requested": {
+    "name": "gulp-order-ext",
+    "raw": "gulp-order-ext",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/gulp-order-ext/-/gulp-order-ext-1.1.1.tgz",
+  "_shasum": "0b8ef0833235bed65f1efbc79c6aed97b1db41e9",
+  "_shrinkwrap": null,
+  "_spec": "gulp-order-ext",
+  "_where": "M:\\",
+  "author": {
+    "email": "marceljackwerth@gmail.com",
+    "name": "Marcel Jackwerth",
     "url": "http://twitter.com/sirlantis"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/sirlantis/gulp-order.git"
+  "bugs": {
+    "url": "https://github.com/sirlantis/gulp-order-ext/issues"
   },
-  "main": "lib/index.js",
-  "files": "lib",
-  "scripts": {
-    "test": "node_modules/.bin/mocha",
-    "prepublish": "node_modules/.bin/coffee -o lib -c src/*.coffee"
+  "dependencies": {
+    "minimatch": "~0.2.14",
+    "through": "~2.3.4"
+  },
+  "description": "The gulp plugin `gulp-order-ext` allows you to reorder a stream of files using the same syntax as of `gulp.src`.",
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "coffee-script": "~1.7.1",
+    "gulp-util": "~2.2.14",
+    "mocha": "~1.17.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "0b8ef0833235bed65f1efbc79c6aed97b1db41e9",
+    "tarball": "http://registry.npmjs.org/gulp-order-ext/-/gulp-order-ext-1.1.1.tgz"
   },
   "engines": {
     "node": "*"
   },
-  "license": {
-    "type": "MIT",
-    "url": "http://github.com/sirlantis/gulp-order/raw/master/LICENSE"
-  },
-  "devDependencies": {
-    "coffee-script": "~1.7.1",
-    "mocha": "~1.17.1",
-    "chai": "~1.9.0",
-    "gulp-util": "~2.2.14"
-  },
-  "dependencies": {
-    "through": "~2.3.4",
-    "minimatch": "0.2.14",
-    "stable": "0.1.5"
-  },
+  "homepage": "https://github.com/holycrepe/gulp-order-ext",
   "keywords": [
+    "concat",
     "gulp",
     "gulpplugin",
     "minimatch",
-    "concat",
     "order",
     "pipe"
-  ]
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/sirlantis/gulp-order-ext/raw/master/LICENSE"
+  },
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "sirlantis",
+      "email": "marceljackwerth@gmail.com"
+    }
+  ],
+  "name": "gulp-order-ext",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/holycrepe/gulp-order-ext.git"
+  },
+  "scripts": {
+    "prepublish": "coffee -o lib -c src/*.coffee",
+    "test": "mocha"
+  },
+  "version": "1.1.1"
 }
